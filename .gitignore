@@ -1,0 +1,41 @@
+# cache directories
+*Thumbs.db
+*.DS_Store
+*.empty
+
+# phpstorm, netbeans, zend studio, eclipse project files
+.idea
+nbproject
+.buildpath
+.project
+.settings
+
+# Symfony Cache and Logs
+bin/*
+!/bin/console
+!/bin/symfony_requirements
+/var/*
+!/var/jwt
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/logs
+/var/logs/*
+!var/logs/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+!var/SymfonyRequirements.php
+
+# Parameters
+/app/config/parameters.yml
+/phpunit.xml
+
+# Assets and user uploads
+/web/bundles/
+/web/components/
+/web/css/
+/web/js/
+
+# Managed by Composer
+/vendor/
